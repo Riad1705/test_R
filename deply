@@ -1,5 +1,5 @@
 #!/bin/sh
 cd /root/test_R
-#git pull       
+git pull       
 #npm install       
 pm2 restart all
