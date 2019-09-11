@@ -1,5 +1,6 @@
 #!/bin/sh
-cd /root/test_R
-git pull       
+#cd /root/test_R
+cd /var/lib/jenkins/workspace/Deploy_BACK
+git pull origin master     
 #npm install       
 pm2 restart all
