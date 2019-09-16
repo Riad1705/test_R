@@ -3,6 +3,6 @@
 #cd /var/lib/jenkins/workspace/Deploy_BACK
 cp /var/lib/jenkins/workspace/Deploy_BACK/* /home/prdbackend/dev
 cd /home/prdbackend/dev
-git pull origin master     
+#git pull origin master     
 #npm install       
 pm2 restart all
