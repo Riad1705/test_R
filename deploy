@@ -1,6 +1,6 @@
 #!/bin/sh
 #cd /root/test_R
-#cd /var/lib/jenkins/workspace/Deploy_BACK
+##cd /var/lib/jenkins/workspace/Deploy_BACK
 cp -rf /var/lib/jenkins/workspace/Deploy_BACK/* /home/prdfrontend/dev/
 cd /home/prdfrontend/dev/
 #git pull origin master     
